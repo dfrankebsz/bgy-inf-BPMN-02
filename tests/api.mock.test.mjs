@@ -17,7 +17,7 @@ async function makeHandler(){
   }
  };
  globalThis.__mockNetlifyBlobs={getStore};
- process.env.TEACHER_ACCESS_CODE='SehrLangerLehrercode2026!';
+ process.env.TEACHER_ACCESS_CODE='LehrerCode12';
  const url=new URL('../netlify/functions/api.mjs',import.meta.url);
  let code=await readFile(url,'utf8');
  code=code.replace("import { getStore } from '@netlify/blobs';",'const {getStore}=globalThis.__mockNetlifyBlobs;');
@@ -34,6 +34,12 @@ test('Lehrercode, Klassenbindung, Fortschritt, Reset, Passwort und Entfernen',as
  const run=await makeHandler();
  const noCode=await run(jsonReq('register',{klass:'BG11A',nickname:'badteacher',password:'passwort123',role:'teacher',teacherCode:'falsch'}));
  assert.equal(noCode.status,403);
+ const validCode=process.env.TEACHER_ACCESS_CODE;
+ assert.equal(validCode.length,12,'Der konfigurierte Lehrercode hat für diesen Test genau 12 Zeichen.');
+ process.env.TEACHER_ACCESS_CODE='Code1234567';
+ const tooShort=await run(jsonReq('register',{klass:'BG11A',nickname:'teacherShort',password:'passwort123',role:'teacher',teacherCode:process.env.TEACHER_ACCESS_CODE}));
+ assert.equal(tooShort.status,503,'11 Zeichen dürfen nicht ausreichen.');
+ process.env.TEACHER_ACCESS_CODE=validCode;
  const teacher=await run(jsonReq('register',{klass:'BG11A',nickname:'Tutor',password:'passwort123',role:'teacher',teacherCode:process.env.TEACHER_ACCESS_CODE}));
  assert.equal(teacher.status,201);
  const tc=cookieOf(teacher);

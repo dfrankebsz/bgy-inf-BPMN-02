@@ -135,7 +135,7 @@ export default async function handler(req){
    if(!validPass(password))return fail('Passwort: mindestens 8 und höchstens 100 Zeichen.');
    const role=input.role==='teacher'?'teacher':'student';
    if(role==='teacher'){
-    if(!process.env.TEACHER_ACCESS_CODE || process.env.TEACHER_ACCESS_CODE.length<16)return fail('Lehrerregistrierung nicht eingerichtet. Setzen Sie TEACHER_ACCESS_CODE mit mindestens 16 Zeichen in Netlify.',503);
+    if(!process.env.TEACHER_ACCESS_CODE || process.env.TEACHER_ACCESS_CODE.length<12)return fail('Lehrerregistrierung nicht eingerichtet. Setzen Sie TEACHER_ACCESS_CODE mit mindestens 12 Zeichen in Netlify.',503);
     if(!equalSecret(input.teacherCode,process.env.TEACHER_ACCESS_CODE))return fail('Lehrercode ist nicht korrekt.',403);
    }
    const key=accountKey(klass,nickname);const salt=randomBytes(16).toString('hex');const hash=await passwordHash(password,salt);

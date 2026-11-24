@@ -2,7 +2,7 @@
 
 ## Ziel und Aufbau
 
-Ein eigenständiger, digitaler Lernkurs für Informatik am Beruflichen Gymnasium (Jahrgangsstufe 11), der fachlich auf **UE 2** aufbaut. Schwerpunkt: **aus einer betrieblichen Textbeschreibung eigenständig ein BPMN-Diagramm in draw.io erstellen**.
+Ein eigenständiger, digitaler Lernkurs für Informatik am Beruflichen Gymnasium (Jahrgangsstufe 11), der fachlich auf **UE 2** aufbaut. Schwerpunkt: **Geschäftsprozesse anhand einer Textbeschreibung selbstständig als BPMN-Diagramm in draw.io darstellen**.
 
 Die Syntaxlegende enthält **alle fünf aus UE 2 bekannten Elemente** (Start, Task, Ende, Sequenzfluss, XOR) sowie **AND-Gateway und Rückführungsschleife aus UE 3**. Pool, Lane, Nachrichtenereignisse, Nachrichtenfluss, Datenobjekt und Terminierung werden nur als Ausblick auf UE 4 erwähnt.
 
@@ -13,7 +13,7 @@ Die Syntaxlegende enthält **alle fünf aus UE 2 bekannten Elemente** (Start, Ta
 1. Den **Inhalt** dieses ZIP-Archivs (nicht den darüberliegenden Ordner) in ein eigenes GitHub-Repository hochladen.
 2. Neues Netlify-Projekt über *Add new project* und *Import from Git* mit diesem Repository verknüpfen.
 3. Netlify verwendet die Konfiguration in `netlify.toml`: Build `npm run build`, Publish-Ordner `dist`, Functions `netlify/functions`.
-4. In **Site configuration → Environment variables** die Variable `TEACHER_ACCESS_CODE` (mindestens 16 Zeichen) hinterlegen und die Site erneut deployen. Den Lehrercode nur dem zuständigen Lehrpersonal geben. Keine allgemeine `AUTH`-Variable nötig.
+4. In **Site configuration → Environment variables** die Variable `TEACHER_ACCESS_CODE` (mindestens 12 Zeichen) hinterlegen und die Site erneut deployen. Den Lehrercode nur dem zuständigen Lehrpersonal geben. Keine allgemeine `AUTH`-Variable nötig.
 5. Lehrkraft: auf der Kurswebsite registrieren, Klasse, selbst gewählten Nickname, Passwort und Rolle „Lehrkraft“ plus den Netlify-Lehrercode angeben. Schülerinnen und Schüler registrieren sich mit **derselben Klassenbezeichnung** und ihrem eigenen Nickname und Passwort. Beim Login ist die Klasse Pflicht.
 6. Unangemeldete Nutzung bleibt möglich, Fortschritte im Gastmodus werden lokal im Browser gespeichert. Angemeldete Konten speichern ihre Fortschritte auf Netlify Blobs und können sie geräteübergreifend fortsetzen.
 

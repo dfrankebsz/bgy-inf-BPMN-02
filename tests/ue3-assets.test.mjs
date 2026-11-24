@@ -19,7 +19,7 @@ test('Nicht automatisch bewertete Diagrammaufgaben werden als Freitext mit Muste
  for(const t of [...TASKS,...TEST])if(t.drawio){assert.equal(t.type,'text');assert.equal(grade(t, ''),null);assert.ok(t.solution.length>80);}
 });
 test('Aufgabenstellungen sind nicht doppelt',()=>{
- const all=[...TASKS,...TEST];const norm=s=>s.replace(/^(BONUS|DRAW.IO|LEISTUNGSKONTROLL-TRAINING)[^:]*:/g,'').trim().toLowerCase().replace(/\s+/g,' ');
+ const all=[...TASKS,...TEST];const norm=s=>s.replace(/^(BONUS|DRAW.IO|Eigenständig modellieren)[^:]*:/g,'').trim().toLowerCase().replace(/\s+/g,' ');
  assert.equal(new Set(all.map(x=>norm(x.prompt))).size,all.length);
 });
 test('Alle automatisch bewertbaren Aufgaben haben echte Gegenbeispiele, die abgelehnt werden',()=>{

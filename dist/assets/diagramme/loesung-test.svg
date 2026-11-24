@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="575" viewBox="0 0 1560 575">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#314668"/></marker></defs>
+<rect width="1560" height="575" rx="18" fill="#F8FAFF"/><rect x="10" y="10" width="1540" height="555" rx="15" fill="none" stroke="#E0E8F4"/>
+<path d="M 85,252 L 169,254" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 319,254 L 375,254" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 441,254 L 409,347 L 362,443" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="425" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#315C88">Nein</text>
+<path d="M 442,478 L 440,516 L 244,516 L 244,287" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="355" y="498" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#315C88">Zurück zur Prüfung</text>
+<path d="M 441,254 L 566,254" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="504" y="244" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#315C88">Ja</text>
+<path d="M 599,254 L 670,148 L 731,148" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 599,254 L 670,371 L 731,371" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 903,148 L 949,148 L 995,253" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 903,371 L 949,371 L 995,253" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 1061,253 L 1120,255" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 1284,255 L 1392,256" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<circle cx="57.5" cy="252.5" r="23.5" fill="#BDE7FA" stroke="#1F4A6D" stroke-width="3"/>
+<text x="57.5" y="303" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#394B68">Entwurf vorhanden</text>
+<rect x="169" y="217" width="150" height="73" rx="15" fill="#F5FAFF" stroke="#385D89" stroke-width="2.5"/>
+<text x="244.0" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">Entwurf prüfen</text>
+<path d="M 408.0 224 L 438 254.0 L 408.0 284 L 378 254.0 Z" fill="#FFF1C6" stroke="#916B1C" stroke-width="2.5"/>
+<text x="408.0" y="265.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="bold" fill="#30405F">X</text>
+<text x="408.0" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#394B68">korrekt?</text>
+<rect x="362" y="408" width="160" height="70" rx="15" fill="#F5FAFF" stroke="#385D89" stroke-width="2.5"/>
+<text x="442.0" y="439" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">Entwurf</text>
+<text x="442.0" y="457" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">überarbeiten</text>
+<path d="M 599.0 224 L 629 254.0 L 599.0 284 L 569 254.0 Z" fill="#E0F4E4" stroke="#287A58" stroke-width="2.5"/>
+<text x="599.0" y="265.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="bold" fill="#30405F">+</text>
+<rect x="731" y="112" width="172" height="72" rx="15" fill="#F5FAFF" stroke="#385D89" stroke-width="2.5"/>
+<text x="817.0" y="144" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">Werbematerial</text>
+<text x="817.0" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">vorbereiten</text>
+<rect x="731" y="335" width="172" height="72" rx="15" fill="#F5FAFF" stroke="#385D89" stroke-width="2.5"/>
+<text x="817.0" y="367" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">Raumplanung</text>
+<text x="817.0" y="385" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">erstellen</text>
+<path d="M 1028.0 223 L 1058 253.0 L 1028.0 283 L 998 253.0 Z" fill="#E0F4E4" stroke="#287A58" stroke-width="2.5"/>
+<text x="1028.0" y="264.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="bold" fill="#30405F">+</text>
+<rect x="1120" y="219" width="164" height="72" rx="15" fill="#F5FAFF" stroke="#385D89" stroke-width="2.5"/>
+<text x="1202.0" y="251" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">Veranstaltung</text>
+<text x="1202.0" y="269" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">freigeben</text>
+<circle cx="1419.5" cy="256.5" r="23.5" fill="#FBD5DA" stroke="#A33349" stroke-width="6"/>
+<text x="1419.5" y="307" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#394B68">Veranstaltung freigegeben</text>
+</svg>
