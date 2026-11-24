@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="490" viewBox="0 0 1250 490">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#314668"/></marker></defs>
+<rect width="1250" height="490" rx="18" fill="#F8FAFF"/><rect x="10" y="10" width="1230" height="470" rx="15" fill="none" stroke="#E0E8F4"/>
+<path d="M 97,226 L 206,224" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 356,224 L 469,226" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 533,226 L 690,164" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="612" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#315C88">Ja</text>
+<path d="M 858,164 L 1003,165" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<circle cx="71.0" cy="226.0" r="22.0" fill="#BDE7FA" stroke="#1F4A6D" stroke-width="3"/>
+<text x="71.0" y="275" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#394B68">Druckdatei eingegangen</text>
+<rect x="206" y="189" width="150" height="70" rx="15" fill="#F5FAFF" stroke="#385D89" stroke-width="2.5"/>
+<text x="281.0" y="229" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">Motiv prüfen</text>
+<path d="M 501.0 197 L 530 226.0 L 501.0 255 L 472 226.0 Z" fill="#FFF1C6" stroke="#916B1C" stroke-width="2.5"/>
+<text x="501.0" y="237.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="bold" fill="#30405F">X</text>
+<text x="501.0" y="281" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#394B68">geeignet?</text>
+<rect x="690" y="127" width="168" height="74" rx="15" fill="#F5FAFF" stroke="#385D89" stroke-width="2.5"/>
+<text x="774.0" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">Druckauftrag</text>
+<text x="774.0" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">freigeben</text>
+<circle cx="1030.0" cy="165.0" r="23.0" fill="#FBD5DA" stroke="#A33349" stroke-width="6"/>
+<text x="1030.0" y="215" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#394B68">Auftrag freigegeben</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1330" height="515" viewBox="0 0 1330 515">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#314668"/></marker></defs>
+<rect width="1330" height="515" rx="18" fill="#F8FAFF"/><rect x="10" y="10" width="1310" height="495" rx="15" fill="none" stroke="#E0E8F4"/>
+<path d="M 92,257 L 211,256" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 244,256 L 333,141 L 413,140" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 244,256 L 333,371 L 413,370" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 595,140 L 678,141 L 744,256" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 595,370 L 678,371 L 744,256" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 809,256 L 895,260" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 1068,260 L 1165,261" fill="none" stroke="#314668" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<circle cx="65.0" cy="257.0" r="23.0" fill="#BDE7FA" stroke="#1F4A6D" stroke-width="3"/>
+<text x="65.0" y="307" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#394B68">Auftrag freigegeben</text>
+<path d="M 243.5 226 L 273 255.5 L 243.5 285 L 214 255.5 Z" fill="#E0F4E4" stroke="#287A58" stroke-width="2.5"/>
+<text x="243.5" y="266.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="bold" fill="#30405F">+</text>
+<rect x="413" y="105" width="182" height="71" rx="15" fill="#F5FAFF" stroke="#385D89" stroke-width="2.5"/>
+<text x="504.0" y="136" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">Druckdatei</text>
+<text x="504.0" y="154" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">fertigstellen</text>
+<rect x="413" y="335" width="182" height="71" rx="15" fill="#F5FAFF" stroke="#385D89" stroke-width="2.5"/>
+<text x="504.0" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">Textilien</text>
+<text x="504.0" y="384" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">bereitstellen</text>
+<path d="M 776.5 226 L 806 255.5 L 776.5 285 L 747 255.5 Z" fill="#E0F4E4" stroke="#287A58" stroke-width="2.5"/>
+<text x="776.5" y="266.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="bold" fill="#30405F">+</text>
+<rect x="895" y="225" width="173" height="70" rx="15" fill="#F5FAFF" stroke="#385D89" stroke-width="2.5"/>
+<text x="981.5" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#253653">Druck starten</text>
+<circle cx="1192.0" cy="261.0" r="23.0" fill="#FBD5DA" stroke="#A33349" stroke-width="6"/>
+<text x="1192.0" y="311" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#394B68">Druck gestartet</text>
+</svg>
